@@ -1,0 +1,15 @@
+###
+GET  http://localhost:3000/registro HTTP/1.1
+
+###
+POST http://localhost:3000/registro HTTP/1.1
+content-type: application/json
+
+{
+  "placa_vehiculo":"TQL001",
+  "evento":"OUT"
+
+}
+
+###
+GET  http://localhost:3000/placas HTTP/1.1

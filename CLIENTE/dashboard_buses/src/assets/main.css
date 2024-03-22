@@ -1,0 +1,11 @@
+#app{
+  margin: auto;
+  
+}
+
+body{
+  background-color: rgb(230, 218, 218);
+  background-image: url('fondo.jpg');
+  background-size:cover;
+  ;
+}
